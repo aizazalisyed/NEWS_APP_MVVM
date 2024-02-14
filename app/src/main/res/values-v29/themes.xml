@@ -1,10 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.News_App" parent="Theme.Material3.DayNight.NoActionBar">
+
+    <style name="Base.Theme.News_App" parent="Theme.Material3.DayNight.NoActionBar" tools:ignore="DuplicateDefinition">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:forceDarkAllowed">false</item>
     </style>
-
-    <style name="Theme.News_App" parent="Base.Theme.News_App" />
 </resources>
